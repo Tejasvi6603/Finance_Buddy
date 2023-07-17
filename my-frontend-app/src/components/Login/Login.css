@@ -1,0 +1,43 @@
+.login-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 12vw;
+    background: #FCF6F9;
+    height: 55vh;
+    margin-left: 63vh;
+    margin-right: 72vh;
+    border-radius: 9vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 23vw;
+}
+
+input{
+    padding: 1vh;
+    border-radius: 1vh ;
+    border:solid #ccc;
+}
+
+button{
+
+        background-color: rgb(212, 46, 129);
+        color: white;
+        height: 6vh;
+        border-radius: 10vh;
+        border: solid white;
+
+}
+
+button:hover {
+    background-color:green;
+  }
+
+p{
+    margin-left: 2rem;
+
+}
